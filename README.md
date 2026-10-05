@@ -26,7 +26,7 @@ This is a Intruder Detector. It is a Arduino UNOd project which displays when an
 * **Total Project Cost:** **₹1260**
   
 ## Circuit Design
-<img width="3000" height="3215" alt="circuit_image" src="https://github.com/user-attachments/assets/b6ef0181-9aef-4596-ab7b-a45f8e9836a6" />
+![circuit_image.png](https://cdn.hackclub.com/01a107f9-5756-7d4a-b6d6-1d2a2a0fd407/circuit_image.png)
 
 
 ## CAD file
@@ -44,59 +44,4 @@ This is a Intruder Detector. It is a Arduino UNOd project which displays when an
 
 ![image.png](https://cdn.hackclub.com/01a10d31-eed4-74fc-b32a-aff233da36b7/image.png)
 
-
-## Workflow
-                    POWER ON
-                       |
-                       v
-             +-------------------+
-             |   ROBO EYES MODE  |
-             |                   |
-             |  Animation 1      |
-             |       ↕            |
-             |  Animation 2      |
-             +---------+---------+
-                       |
-                  SHORT PRESS
-                       |
-                       v
-             +-------------------+
-             |    TIME SCREEN    |
-             +---------+---------+
-                       |
-                  SHORT PRESS
-                       |
-                       v
-             +-------------------+
-             |  CALENDAR SCREEN  |
-             +---------+---------+
-                       |
-                  SHORT PRESS
-                       |
-                       v
-             +-------------------+
-             |  WEATHER SCREEN   |
-             |    Faridabad      |
-             +---------+---------+
-                       |
-                  SHORT PRESS
-                       |
-                       v
-             +-------------------+
-             |   ROBO EYES MODE  |
-             +-------------------+
-
-                  LONG PRESS
-                      |
-                      v
-              +----------------+
-              |  PETTING EYES  |
-              |    ^  ^        |
-              |   (  )         |
-              +-------+--------+
-                      |
-                   RELEASE
-                      |
-                      v
-                 Previous mode
 
