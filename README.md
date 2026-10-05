@@ -1,6 +1,6 @@
 This is a Intruder Detector. It is a Arduino UNO project which displays when an object or the "intruder" is detected through ultrasonic sensor and warns through the buzzer. In the remaining vacant time the OLED display shows a eye animation.
 # Bill of Materials (BOM)
-# Desk Display — Bill of Materials
+# Intruder Detector — Bill of Materials
 
 | # | Component | SKU | Qty | Unit Price | Subtotal | Link |
 |---|---|---:|---:|---:|---:|---|
