@@ -8,17 +8,17 @@ This is a Intruder Detector. It is a Arduino UNO project which displays when an 
 | 2 | GoldenMorning 0.96" I2C/IIC 4-Pin OLED Display — Blue | 617724 | 1 | ₹209.00 | ₹209.00 | [Robu](https://robu.in/product/0-96-inch-i2c-iic-oled-lcd-module-4pin-with-vcc-gnd-blue/) |
 | 3 | Arduino Uno R3 | 44497 | 1 | ₹249.00 | ₹249.00 | [Robu](https://robu.in/product/arduino-uno-r3-ch340g-atmega328p-devlopment-board/) |
 | 4 | HC-SR04 Ultrasonic sensor | 1343283 | 1  | ₹139.00 | ₹139.00 | [Robu](https://robu.in/product/3-3-5-5v-hc-sr04-ultrasonic-sensor-4pin/) |
-| 5 | Robu 3D Printing Services | 901845 | 1 | ₹190.00 | ₹190.00 | Robu |
-| | **TOTAL** | | | | **₹1,000.00** | ||
-
+| 5 | Robu 3D Printing Services | 901845 | 1 | ₹567.00 | ₹567.00 | [Robu](https://robu.in/product/3d-printing-service1/) |
+| | **TOTAL** | | | | **₹1,180.00** | ||
+<img width="1365" height="608" alt="image" src="https://github.com/user-attachments/assets/f0a71810-0b1d-4fec-88f0-4efee357d0b1" />
 
 
 
 ### Cost Breakdown
 
 * **Electronics:** ₹613
-* **3D Printing:** ₹387
-* **Total Project Cost:** **₹1000**
+* **3D Printing:** ₹567
+* **Total Project Cost:** **₹1,180**
   
 ## Circuit Design
 ![circuit_image.png](https://cdn.hackclub.com/01a107f9-5756-7d4a-b6d6-1d2a2a0fd407/circuit_image.png)
