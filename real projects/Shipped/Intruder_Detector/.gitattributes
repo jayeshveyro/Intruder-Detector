@@ -1,0 +1,2 @@
+*.step filter=lfs diff=lfs merge=lfs -text
+real[[:space:]]projects/Shipped/Intruder_Detector/*.step filter=lfs diff=lfs merge=lfs -text
