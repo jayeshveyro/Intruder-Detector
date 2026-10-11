@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Akinator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HOME SCREEN -->
+    <main id="homeScreen" class="screen active">
+        <div class="game-card">
+            <div class="logo">🔮</div>
+
+            <h1>Number Akinator</h1>
+
+            <p class="subtitle">
+                Think of a number between <strong>1 and 99</strong>.
+                I'll try to guess it!
+            </p>
+
+            <button id="startBtn" class="primary-btn">
+                Start Game
+            </button>
+        </div>
+    </main>
+
+
+    <!-- SETUP SCREEN -->
+    <main id="setupScreen" class="screen">
+        <div class="game-card">
+            <div class="number-icon">🔢</div>
+
+            <h2>Choose Your Number</h2>
+
+            <p>
+                Enter a secret number between 1 and 99.
+            </p>
+
+            <input
+                type="number"
+                id="numberInput"
+                min="1"
+                max="99"
+                placeholder="Enter number"
+            >
+
+            <button id="beginBtn" class="primary-btn">
+                Hide Number & Start
+            </button>
+
+            <p id="inputError" class="error"></p>
+        </div>
+    </main>
+
+
+    <!-- GAME SCREEN -->
+    <main id="gameScreen" class="screen">
+        <div class="game-card game">
+
+            <div class="top-bar">
+                <span>Guess <strong id="guessCount">1</strong></span>
+                <span>Range: <strong id="rangeDisplay">1 - 99</strong></span>
+            </div>
+
+            <div class="brain">🧠</div>
+
+            <p class="question">
+                Is your number...
+            </p>
+
+            <div class="guess-number" id="currentGuess">
+                50
+            </div>
+
+            <p class="hint">
+                Tell me how my guess compares to your number.
+            </p>
+
+            <div class="answer-grid">
+
+                <button class="answer-btn extremely-low" data-answer="extremely-low">
+                    <span>⬇⬇</span>
+                    Extremely Low
+                </button>
+
+                <button class="answer-btn low" data-answer="low">
+                    <span>⬇</span>
+                    Low
+                </button>
+
+                <button class="answer-btn high" data-answer="high">
+                    <span>⬆</span>
+                    High
+                </button>
+
+                <button class="answer-btn extremely-high" data-answer="extremely-high">
+                    <span>⬆⬆</span>
+                    Extremely High
+                </button>
+
+            </div>
+
+        </div>
+    </main>
+
+
+    <!-- WIN SCREEN -->
+    <main id="winScreen" class="screen">
+        <div class="game-card">
+
+            <div class="success-icon">🎯</div>
+
+            <h1>I Got It!</h1>
+
+            <p class="result-text">
+                Your number was
+            </p>
+
+            <div class="final-number" id="finalNumber">
+                50
+            </div>
+
+            <p>
+                I guessed it in
+                <strong id="finalGuesses">1</strong>
+                guesses!
+            </p>
+
+            <button id="playAgainBtn" class="primary-btn">
+                Play Again
+            </button>
+
+            <button id="homeBtn" class="secondary-btn">
+                Back to Home
+            </button>
+
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+    </head>
+</html>
